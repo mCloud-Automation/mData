@@ -344,7 +344,6 @@
   </tr>
 </table>
 
-<hr>
 
 
 <div style='background-color:transparent;'>
@@ -352,21 +351,30 @@
 		<div style='border-collapse: collapse;display: table;width: 100%;background-color:#FFFFFF;'>
 
 			<table class='datatable' >
-				<caption>Basic Details</caption>
+				<caption>OS Details</caption>
 			  <tr>
 			    <th>Operating System</th>
 			    <th>Host Name</th>
 			    <th>Public IP</th>
 			    <th>Uptime</th>
-			    <th>Disk Size</th>
-			    <th>Load Average</th>
-			    <th>Total RAM (MB)</th>
 			  </tr>
 			  <tr>
 			    <td>Ubuntu 20.04.1 LTS</td>
 			    <td>aw-prod-nginx</td>
 			    <td>5.206.45.231</td>
 			    <td>24 days</td>
+			  </tr>
+			</table>
+
+			<br>
+			<table class='datatable' >
+				<caption>System Details</caption>
+			  <tr>
+			    <th>Disk Size</th>
+			    <th>Load Average</th>
+			    <th>Total RAM (MB)</th>
+			  </tr>
+			  <tr>
 			    <td>20G</td>
 			    <td>0.03 0.11 0.05</td>
 			    <td>952</td>
@@ -385,23 +393,33 @@
 					<!--[if (!mso)&(!IE)]><!-->
 						<!--<![endif]-->
 						<table class='datatable' >
-							<caption>Resources Utilization</caption>
+							<caption>System Utilization</caption>
 							<tr>
 								<th># of Processes</th>
 								<th>Root FS Usage</th>
-								<th>Used RAM(in MB)</th>
 								<th>iNode Status</th>
-								<th>Used Memory</th>
 								<th>Used Disk</th>
-								<th>Used CPU</th>
 							</tr>
 							<tr>
 								<td>67</td>
 								<td>56%</td>
-								<td>231</td>
 								<td>24%</td>
 								<td>56%</td>
-								<td>5%</td>
+							</tr>
+						</table>
+
+						<br>
+						<table class='datatable' >
+							<caption>Resources Utilization</caption>
+							<tr>
+								<th>Used RAM(in MB)</th>
+								<th>Used Memory</th>
+								<th>Used CPU</th>
+							</tr>
+							<tr>
+
+								<td>231</td>
+								<td>56%</td>
 								<td>34%</td>
 							</tr>
 						</table>
@@ -418,58 +436,9 @@
 	</div>
 </div>
 
-<hr>
 
-<br>
 
-<table class='datatable' >
-	<caption>Basic Details</caption>
-  <tr>
-    <th>Operating System</th>
-    <th>Host Name</th>
-    <th>Public IP</th>
-    <th>Uptime</th>
-    <th>Disk Size</th>
-    <th>Load Average</th>
-    <th>Total RAM (MB)</th>
-  </tr>
-  <tr>
-    <td>Ubuntu 20.04.1 LTS</td>
-    <td>aw-prod-nginx</td>
-    <td>5.206.45.231</td>
-    <td>24 days</td>
-    <td>20G</td>
-    <td>0.03 0.11 0.05</td>
-    <td>952</td>
-  </tr>
 
-</table>
-
-<br>
-
-<table class='datatable' >
-	<caption>Resources Utilization</caption>
-  <tr>
-    <th># of Processes</th>
-    <th>Root FS Usage</th>
-    <th>Used RAM(in MB)</th>
-    <th>iNode Status</th>
-    <th>Used Memory</th>
-    <th>Used Disk</th>
-    <th>Used CPU</th>
-  </tr>
-  <tr>
-    <td>67</td>
-    <td>56%</td>
-    <td>231</td>
-    <td>24%</td>
-    <td>56%</td>
-    <td>5%</td>
-    <td>34%</td>
-  </tr>
-</table>
-
-<br>
 <table class='datatable' >
 	<caption>Disk Utilization</caption>
   <tr>
@@ -496,8 +465,6 @@
     <td>56%</td>
     <td>5%</td>
   </tr>
-
-
 </table>
 
 <br>
