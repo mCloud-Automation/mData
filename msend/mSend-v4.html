@@ -323,6 +323,7 @@
 	${MSG_DATA}
 </div>
 
+<!-- Main Section  -->
 <div class='overflow-x:auto;' style='font-size: 12px; min-width: 620px; max-width: 920px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #ffffff;'>
 
 
@@ -345,7 +346,7 @@
 </table>
 
 
-
+<!-- Section 1 end -->
 <div style='background-color:transparent;'>
 	<div class='block-grid three-up' style='min-width: 620px; max-width: 100%; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #FFFFFF;'>
 		<div style='border-collapse: collapse;display: table;width: 100%;background-color:#FFFFFF;'>
@@ -435,150 +436,152 @@
 		</div>
 	</div>
 </div>
+<!-- Section 1 end -->
 
 
+<!-- Section 2 -->
+<div style='border-collapse: collapse;display: table;width: 100%;background-color:#FFFFFF;'>
+		<table class='datatable' >
+			<caption>Disk Utilization</caption>
+		  <tr>
+		    <th>Filesystem</th>
+		    <th>Size</th>
+		    <th>Used</th>
+		    <th>Available</th>
+		    <th>Use (%)</th>
+		    <th>Mount</th>
+		  </tr>
+		  <tr>
+		    <td>67</td>
+		    <td>56%</td>
+		    <td>231</td>
+		    <td>24%</td>
+		    <td>56%</td>
+		    <td>5%</td>
+		  </tr>
+		  <tr>
+		    <td>67</td>
+		    <td>56%</td>
+		    <td>231</td>
+		    <td>24%</td>
+		    <td>56%</td>
+		    <td>5%</td>
+		  </tr>
+		</table>
 
+		<br>
 
-<table class='datatable' >
-	<caption>Disk Utilization</caption>
-  <tr>
-    <th>Filesystem</th>
-    <th>Size</th>
-    <th>Used</th>
-    <th>Available</th>
-    <th>Use (%)</th>
-    <th>Mount</th>
-  </tr>
-  <tr>
-    <td>67</td>
-    <td>56%</td>
-    <td>231</td>
-    <td>24%</td>
-    <td>56%</td>
-    <td>5%</td>
-  </tr>
-  <tr>
-    <td>67</td>
-    <td>56%</td>
-    <td>231</td>
-    <td>24%</td>
-    <td>56%</td>
-    <td>5%</td>
-  </tr>
-</table>
+		<table class='datatable' >
+			<caption>High Memory Consumption</caption>
+		  <tr>
+		    <th>PID</th>
+		    <th>PPID</th>
+		    <th>Mem (%)</th>
+		    <th>CPU (%)</th>
+		    <th>Command</th>
+		  </tr>
+		  <tr>
+		    <td>67</td>
+		    <td>231</td>
+				<td>56%</td>
+		    <td>24%</td>
+		    <td>56%</td>
+		  </tr>
+		  <tr>
+		    <td>67</td>
+		    <td>231</td>
+				<td>56%</td>
+		    <td>24%</td>
+		    <td>56%</td>
+		  </tr>
+		</table>
 
-<br>
+		<br>
 
-<table class='datatable' >
-	<caption>High Memory Consumption</caption>
-  <tr>
-    <th>PID</th>
-    <th>PPID</th>
-    <th>Mem (%)</th>
-    <th>CPU (%)</th>
-    <th>Command</th>
-  </tr>
-  <tr>
-    <td>67</td>
-    <td>231</td>
-		<td>56%</td>
-    <td>24%</td>
-    <td>56%</td>
-  </tr>
-  <tr>
-    <td>67</td>
-    <td>231</td>
-		<td>56%</td>
-    <td>24%</td>
-    <td>56%</td>
-  </tr>
-</table>
+		<table class='datatable' >
+			<caption>All Open Ports and Services</caption>
+		  <tr>
+		    <th>Service Type</th>
+		    <th>Source IP:Port</th>
+		    <th>PID:Service Name</th>
+		  </tr>
+		  <tr>
+		    <td>67</td>
+		    <td>231</td>
+				<td>56%</td>
+		  </tr>
+		  <tr>
+		    <td>67</td>
+		    <td>231</td>
+				<td>56%</td>
+		  </tr>
+		</table>
+		<br>
 
-<br>
+		<table class='datatable' >
+			<caption>Recent Nginx/Apache2 50 Failed Requests</caption>
+		  <tr>
+		    <th>Source IP</th>
+		    <th>Time Stamp</th>
+		    <th>Request Method</th>
+		    <th>Requested URI</th>
+		  </tr>
+		  <tr>
+		    <td>67</td>
+		    <td>231</td>
+				<td>56%</td>
+				<td>56%</td>
+		  </tr>
+		  <tr>
+		    <td>67</td>
+		    <td>231</td>
+				<td>56%</td>
+				<td>56%</td>
+		  </tr>
+		</table>
+		<br>
 
-<table class='datatable' >
-	<caption>All Open Ports and Services</caption>
-  <tr>
-    <th>Service Type</th>
-    <th>Source IP:Port</th>
-    <th>PID:Service Name</th>
-  </tr>
-  <tr>
-    <td>67</td>
-    <td>231</td>
-		<td>56%</td>
-  </tr>
-  <tr>
-    <td>67</td>
-    <td>231</td>
-		<td>56%</td>
-  </tr>
-</table>
-<br>
+		<table class='datatable'>
+			<caption>Attacker's Source IP Details [From Latest 3 Failed Requests]</caption>
+		  <tr>
+		    <th>Attacker IP</th>
+		    <th>Request Count</th>
+		    <th>Risk Level</th>
+		    <th>Blocked</th>
+		    <th class='mobile_hide'>City Name</th>
+		    <th>Source Country</th>
+		    <th>Region</th>
+		    <th class='mobile_hide'>Connection Type</th>
+		    <th class='mobile_hide'>Autonomous System Number</th>
+		  </tr>
+		  <tr>
+		    <td>7.58.149.68</td>
+				<td>3</td>
+		    <td>Normal - 4%</td>
+				<td>No</td>
+				<td class='mobile_hide'>Mumbai (Rajan Pada)</td>
+				<td>India</td>
+		    <td>Maharashtra</td>
+				<td class='mobile_hide'>Cellular</td>
+				<td class='mobile_hide'>AS24560 - Bharti Airtel Limited</td>
+		  </tr>
+		  <tr>
+		    <td>7.58.149.68</td>
+				<td>3</td>
+		    <td>Normal - 4%</td>
+				<td>No</td>
+				<td class='mobile_hide'>Mumbai (Rajan Pada)</td>
+				<td>India</td>
+		    <td>Maharashtra</td>
+				<td class='mobile_hide'>Cellular</td>
+				<td class='mobile_hide'>AS24560 - Bharti Airtel Limited</td>
+		  </tr>
 
-<table class='datatable' >
-	<caption>Recent Nginx/Apache2 50 Failed Requests</caption>
-  <tr>
-    <th>Source IP</th>
-    <th>Time Stamp</th>
-    <th>Request Method</th>
-    <th>Requested URI</th>
-  </tr>
-  <tr>
-    <td>67</td>
-    <td>231</td>
-		<td>56%</td>
-		<td>56%</td>
-  </tr>
-  <tr>
-    <td>67</td>
-    <td>231</td>
-		<td>56%</td>
-		<td>56%</td>
-  </tr>
-</table>
-<br>
+		</table>
+</div>
+<!-- Section 2 END -->
 
-<table class='datatable'>
-	<caption>Attacker's Source IP Details [From Latest 3 Failed Requests]</caption>
-  <tr>
-    <th>Attacker IP</th>
-    <th>Request Count</th>
-    <th>Risk Level</th>
-    <th>Blocked</th>
-    <th class='mobile_hide'>City Name</th>
-    <th>Source Country</th>
-    <th>Region</th>
-    <th class='mobile_hide'>Connection Type</th>
-    <th class='mobile_hide'>Autonomous System Number</th>
-  </tr>
-  <tr>
-    <td>7.58.149.68</td>
-		<td>3</td>
-    <td>Normal - 4%</td>
-		<td>No</td>
-		<td class='mobile_hide'>Mumbai (Rajan Pada)</td>
-		<td>India</td>
-    <td>Maharashtra</td>
-		<td class='mobile_hide'>Cellular</td>
-		<td class='mobile_hide'>AS24560 - Bharti Airtel Limited</td>
-  </tr>
-  <tr>
-    <td>7.58.149.68</td>
-		<td>3</td>
-    <td>Normal - 4%</td>
-		<td>No</td>
-		<td class='mobile_hide'>Mumbai (Rajan Pada)</td>
-		<td>India</td>
-    <td>Maharashtra</td>
-		<td class='mobile_hide'>Cellular</td>
-		<td class='mobile_hide'>AS24560 - Bharti Airtel Limited</td>
-  </tr>
-
-</table>
-<br>
-
-
+<!-- Section 3  -->
 <div style='background-color:transparent;'>
 	<div class='block-grid three-up' style='min-width: 620px; max-width: 100%; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #FFFFFF;'>
 		<div style='border-collapse: collapse;display: table;width: 100%;background-color:#FFFFFF;'>
@@ -741,6 +744,8 @@
 	</div>
 </div>
 
+<!-- Section 3 END -->
+
 
 
 
@@ -802,6 +807,8 @@
   </tr>
 </table>
 </div>
+
+<!-- Main Section END -->
 
 <!--[if mso]></td></tr></table><![endif]-->
 <!--[if (!mso)&(!IE)]><!-->
